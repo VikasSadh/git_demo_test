@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 5
+  username: postgres
+  password: 12345678
+
+development:
+  <<: *default
+  database: git_demo_test_dev
+
+test:
+  <<: *default
+  database: git_demo_test_test
+
+production:
+  <<: *default
+  database: git_demo_test_prod

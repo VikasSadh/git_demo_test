@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+valid:
+  name: MyString
+  age: 1
+
+valid:
+  name: MyString
+  age: 1
